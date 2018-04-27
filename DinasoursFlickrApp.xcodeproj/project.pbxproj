@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EE0AD020924DB30066C19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0ACF20924DB30066C19F /* AppDelegate.m */; };
+		38EE0AD320924DB30066C19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AD220924DB30066C19F /* ViewController.m */; };
+		38EE0AD620924DB30066C19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE0AD420924DB30066C19F /* Main.storyboard */; };
+		38EE0AD820924DB30066C19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EE0AD720924DB30066C19F /* Assets.xcassets */; };
+		38EE0ADB20924DB30066C19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE0AD920924DB30066C19F /* LaunchScreen.storyboard */; };
+		38EE0ADE20924DB30066C19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0ADD20924DB30066C19F /* main.m */; };
+		38EE0AE620924EF60066C19F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AE520924EF60066C19F /* Photo.m */; };
+		38EE0AEE209253360066C19F /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AED209253360066C19F /* PhotoCell.m */; };
+		38EE0AFD20925B710066C19F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF120925B700066C19F /* AFNetworkReachabilityManager.m */; };
+		38EE0AFE20925B710066C19F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF220925B700066C19F /* AFURLSessionManager.m */; };
+		38EE0AFF20925B710066C19F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF320925B700066C19F /* AFHTTPSessionManager.m */; };
+		38EE0B0020925B710066C19F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF520925B700066C19F /* AFSecurityPolicy.m */; };
+		38EE0B0120925B710066C19F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF620925B700066C19F /* AFURLRequestSerialization.m */; };
+		38EE0B0220925B710066C19F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0AF820925B710066C19F /* AFURLResponseSerialization.m */; };
+		38EE0B092092B4660066C19F /* DetailPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0B082092B4660066C19F /* DetailPhoto.m */; };
+		38EE0B0F2092C4690066C19F /* SafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0B0E2092C4690066C19F /* SafariViewController.m */; };
+		38EE0B122092C4CE0066C19F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE0B112092C4CE0066C19F /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EE0ACB20924DB30066C19F /* DinasoursFlickrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinasoursFlickrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE0ACE20924DB30066C19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38EE0ACF20924DB30066C19F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38EE0AD120924DB30066C19F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38EE0AD220924DB30066C19F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38EE0AD520924DB30066C19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EE0AD720924DB30066C19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EE0ADA20924DB30066C19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EE0ADC20924DB30066C19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EE0ADD20924DB30066C19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EE0AE420924EF60066C19F /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		38EE0AE520924EF60066C19F /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		38EE0AEC209253360066C19F /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		38EE0AED209253360066C19F /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		38EE0AEF20925B700066C19F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = DinasoursFlickrApp/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		38EE0AF020925B700066C19F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = DinasoursFlickrApp/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = SOURCE_ROOT; };
+		38EE0AF120925B700066C19F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = DinasoursFlickrApp/AFNetworking/AFNetworkReachabilityManager.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF220925B700066C19F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = DinasoursFlickrApp/AFNetworking/AFURLSessionManager.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF320925B700066C19F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = DinasoursFlickrApp/AFNetworking/AFHTTPSessionManager.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF420925B700066C19F /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = DinasoursFlickrApp/AFNetworking/AFCompatibilityMacros.h; sourceTree = SOURCE_ROOT; };
+		38EE0AF520925B700066C19F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = DinasoursFlickrApp/AFNetworking/AFSecurityPolicy.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF620925B700066C19F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = DinasoursFlickrApp/AFNetworking/AFURLRequestSerialization.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF720925B700066C19F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = DinasoursFlickrApp/AFNetworking/AFURLResponseSerialization.h; sourceTree = SOURCE_ROOT; };
+		38EE0AF820925B710066C19F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = DinasoursFlickrApp/AFNetworking/AFURLResponseSerialization.m; sourceTree = SOURCE_ROOT; };
+		38EE0AF920925B710066C19F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = DinasoursFlickrApp/AFNetworking/AFURLSessionManager.h; sourceTree = SOURCE_ROOT; };
+		38EE0AFA20925B710066C19F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = DinasoursFlickrApp/AFNetworking/AFURLRequestSerialization.h; sourceTree = SOURCE_ROOT; };
+		38EE0AFB20925B710066C19F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = DinasoursFlickrApp/AFNetworking/AFSecurityPolicy.h; sourceTree = SOURCE_ROOT; };
+		38EE0AFC20925B710066C19F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = DinasoursFlickrApp/AFNetworking/AFHTTPSessionManager.h; sourceTree = SOURCE_ROOT; };
+		38EE0B072092B4660066C19F /* DetailPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPhoto.h; sourceTree = "<group>"; };
+		38EE0B082092B4660066C19F /* DetailPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPhoto.m; sourceTree = "<group>"; };
+		38EE0B0D2092C4690066C19F /* SafariViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariViewController.h; sourceTree = "<group>"; };
+		38EE0B0E2092C4690066C19F /* SafariViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariViewController.m; sourceTree = "<group>"; };
+		38EE0B102092C4CE0066C19F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		38EE0B112092C4CE0066C19F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EE0AC820924DB30066C19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EE0AC220924DB30066C19F = {
+			isa = PBXGroup;
+			children = (
+				38EE0ACD20924DB30066C19F /* DinasoursFlickrApp */,
+				38EE0ACC20924DB30066C19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38EE0ACC20924DB30066C19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EE0ACB20924DB30066C19F /* DinasoursFlickrApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EE0ACD20924DB30066C19F /* DinasoursFlickrApp */ = {
+			isa = PBXGroup;
+			children = (
+				38EE0B03209266B80066C19F /* AFNetworking */,
+				38EE0ACE20924DB30066C19F /* AppDelegate.h */,
+				38EE0ACF20924DB30066C19F /* AppDelegate.m */,
+				38EE0AD120924DB30066C19F /* ViewController.h */,
+				38EE0AD220924DB30066C19F /* ViewController.m */,
+				38EE0AD420924DB30066C19F /* Main.storyboard */,
+				38EE0AE420924EF60066C19F /* Photo.h */,
+				38EE0AE520924EF60066C19F /* Photo.m */,
+				38EE0B072092B4660066C19F /* DetailPhoto.h */,
+				38EE0B082092B4660066C19F /* DetailPhoto.m */,
+				38EE0AEC209253360066C19F /* PhotoCell.h */,
+				38EE0AED209253360066C19F /* PhotoCell.m */,
+				38EE0B0D2092C4690066C19F /* SafariViewController.h */,
+				38EE0B0E2092C4690066C19F /* SafariViewController.m */,
+				38EE0B102092C4CE0066C19F /* DetailViewController.h */,
+				38EE0B112092C4CE0066C19F /* DetailViewController.m */,
+				38EE0AD720924DB30066C19F /* Assets.xcassets */,
+				38EE0AD920924DB30066C19F /* LaunchScreen.storyboard */,
+				38EE0ADC20924DB30066C19F /* Info.plist */,
+				38EE0ADD20924DB30066C19F /* main.m */,
+			);
+			path = DinasoursFlickrApp;
+			sourceTree = "<group>";
+		};
+		38EE0B03209266B80066C19F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				38EE0AF420925B700066C19F /* AFCompatibilityMacros.h */,
+				38EE0AFC20925B710066C19F /* AFHTTPSessionManager.h */,
+				38EE0AF320925B700066C19F /* AFHTTPSessionManager.m */,
+				38EE0AEF20925B700066C19F /* AFNetworking.h */,
+				38EE0AF020925B700066C19F /* AFNetworkReachabilityManager.h */,
+				38EE0AF120925B700066C19F /* AFNetworkReachabilityManager.m */,
+				38EE0AFB20925B710066C19F /* AFSecurityPolicy.h */,
+				38EE0AF520925B700066C19F /* AFSecurityPolicy.m */,
+				38EE0AFA20925B710066C19F /* AFURLRequestSerialization.h */,
+				38EE0AF620925B700066C19F /* AFURLRequestSerialization.m */,
+				38EE0AF720925B700066C19F /* AFURLResponseSerialization.h */,
+				38EE0AF820925B710066C19F /* AFURLResponseSerialization.m */,
+				38EE0AF920925B710066C19F /* AFURLSessionManager.h */,
+				38EE0AF220925B700066C19F /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EE0ACA20924DB30066C19F /* DinasoursFlickrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE0AE120924DB30066C19F /* Build configuration list for PBXNativeTarget "DinasoursFlickrApp" */;
+			buildPhases = (
+				38EE0AC720924DB30066C19F /* Sources */,
+				38EE0AC820924DB30066C19F /* Frameworks */,
+				38EE0AC920924DB30066C19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinasoursFlickrApp;
+			productName = DinasoursFlickrApp;
+			productReference = 38EE0ACB20924DB30066C19F /* DinasoursFlickrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EE0AC320924DB30066C19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ruijia lin";
+				TargetAttributes = {
+					38EE0ACA20924DB30066C19F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 38EE0AC620924DB30066C19F /* Build configuration list for PBXProject "DinasoursFlickrApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EE0AC220924DB30066C19F;
+			productRefGroup = 38EE0ACC20924DB30066C19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EE0ACA20924DB30066C19F /* DinasoursFlickrApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EE0AC920924DB30066C19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE0ADB20924DB30066C19F /* LaunchScreen.storyboard in Resources */,
+				38EE0AD820924DB30066C19F /* Assets.xcassets in Resources */,
+				38EE0AD620924DB30066C19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EE0AC720924DB30066C19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE0B0F2092C4690066C19F /* SafariViewController.m in Sources */,
+				38EE0AE620924EF60066C19F /* Photo.m in Sources */,
+				38EE0B0020925B710066C19F /* AFSecurityPolicy.m in Sources */,
+				38EE0AEE209253360066C19F /* PhotoCell.m in Sources */,
+				38EE0AD320924DB30066C19F /* ViewController.m in Sources */,
+				38EE0B0220925B710066C19F /* AFURLResponseSerialization.m in Sources */,
+				38EE0B092092B4660066C19F /* DetailPhoto.m in Sources */,
+				38EE0AFE20925B710066C19F /* AFURLSessionManager.m in Sources */,
+				38EE0ADE20924DB30066C19F /* main.m in Sources */,
+				38EE0AFD20925B710066C19F /* AFNetworkReachabilityManager.m in Sources */,
+				38EE0B0120925B710066C19F /* AFURLRequestSerialization.m in Sources */,
+				38EE0AD020924DB30066C19F /* AppDelegate.m in Sources */,
+				38EE0AFF20925B710066C19F /* AFHTTPSessionManager.m in Sources */,
+				38EE0B122092C4CE0066C19F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38EE0AD420924DB30066C19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE0AD520924DB30066C19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EE0AD920924DB30066C19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE0ADA20924DB30066C19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EE0ADF20924DB30066C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38EE0AE020924DB30066C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EE0AE220924DB30066C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FGZ4M8EYW;
+				INFOPLIST_FILE = DinasoursFlickrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RJL.DinasoursFlickrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EE0AE320924DB30066C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FGZ4M8EYW;
+				INFOPLIST_FILE = DinasoursFlickrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RJL.DinasoursFlickrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EE0AC620924DB30066C19F /* Build configuration list for PBXProject "DinasoursFlickrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE0ADF20924DB30066C19F /* Debug */,
+				38EE0AE020924DB30066C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE0AE120924DB30066C19F /* Build configuration list for PBXNativeTarget "DinasoursFlickrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE0AE220924DB30066C19F /* Debug */,
+				38EE0AE320924DB30066C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EE0AC320924DB30066C19F /* Project object */;
+}
